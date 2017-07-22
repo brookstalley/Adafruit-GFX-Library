@@ -3,12 +3,6 @@
 
 #include "application.h"
 
-#if ARDUINO >= 100
- #include "Arduino.h"
- #include "Print.h"
-#else
- #include "WProgram.h"
-#endif
 #include "gfxfont.h"
 
 class Adafruit_GFX : public Print {
